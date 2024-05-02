@@ -34,6 +34,3 @@
     @apply hover no-underline bg-blue hover:bg-blue-accent-hover tracking-wider w-full text-center text-nav font-nav font-bold cursor-pointer uppercase px-4 py-2 rounded-nd transition-colors block;
   }
 }
-.text {
-  font-size: small;
-}
