@@ -55,3 +55,7 @@ textarea {
   color: aliceblue;
   padding: 10px;
 }
+
+* {
+  font-family: "Geneva", Verdana, sans-serif;
+}
