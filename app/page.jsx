@@ -1,6 +1,6 @@
 import React from "react";
 
-import Ticketcard from "./components/Ticketcard";
+import Ticketcard from "./(components)/Ticketcard";
 
 const Dashboard = () => {
   return (

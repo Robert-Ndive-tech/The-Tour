@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Nav from "./components/nav";
+import Nav from "./(components)/nav";
 
 config.autoAddcss = false; //helps in jumping of the icon
 
@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
           <Nav />
 
           <div className="flex-grow overflow-auto bg-page text-default-text">
-            {" "}
             {children}
           </div>
         </div>
